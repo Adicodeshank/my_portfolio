@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1 class="class">Lets get started!</h1> -->
+    <header>
+      <nav class="navBar">
+        <div class="left">Aditya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li class="home">
+              <a class="nav_link" href=".mainContent">Home</a>
+            </li>
+            <li class="about">
+              <a class="nav_link" href=".About--me">About</a>
+            </li>
+            <li class="services">
+              <a class="nav_link" href=".My_Services">Services</a>
+            </li>
+            <li class="projects">
+              <a class="nav_link" href=".project">Project</a>
+            </li>
+            <li class="Contact">
+              <a class="nav_link" href=".contact--me">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="mainContent">
+      <div class="leftPart">
+        Hi, My name is
+        <span class="colorName">Aditya,</span>
+        <div>
+          I am a passionate
+          <!-- <div>Front-End engineer</div> -->
+          <span id="element"></span>
+          <!-- giving animation through typed.js-->
+        </div>
+        <button class="btn">
+          <!-- Download Button -->
+          <a href="Resume.pdf" download="Resume" class="download-btn"
+            >Download CV
+          </a>
+        </button>
+        <!-- Download Button -->
+
+        <button class="btn">
+          <a
+            class="link--github"
+            href="https://github.com/Adicodeshank"
+            target="_blank"
+            >Visit Github</a
+          >
+        </button>
+      </div>
+      <div class="rightPart">
+        <span class="dev"
+          ><img class="devImg" src="devimg.png" alt="Developer photo"
+        /></span>
+      </div>
+    </div>
+    <hr class="line1" />
+
+    <div style="border: 2px solid red" class="About--me">
+      <div class="About--me__leftPart">
+        <!-- <h1>Paragraph</h1> -->
+        <img class="img" src="myphoto.jpeg" alt="My_Photo" />
+      </div>
+      <div class="About--me__rightPart">
+        <h1 class="About--me__Start"><b>About Me</b></h1>
+        <p class="About--me__para">
+          I am Aditya, an innovative software developer specializing in
+          front-end development. I thrive on solving problems and approach every
+          project with a user-centric mindset. My diverse skill set enables me
+          to create impactful solutions and contribute to building robust web
+          applications.Driven by a lifelong curiosity for technology and design,
+          I specialize in front-end development and Data Structures and
+          Algorithms I aim to contribute to meaningful projects that have a
+          positive impact, pushing the boundaries of what's possible in the
+          digital realm.
+        </p>
+
+        <div>
+          <span class="Skills btnDecoration">Skills</span>
+          <span class="Education">Education</span>
+        </div>
+
+        <div class="Skills--list">
+          <div class="content1">
+            <div class="lang">C++</div>
+            <div class="lang--skill">Data Structures and Algorithm</div>
+
+            <div class="webLang">Web</div>
+            <div class="webLang--skills">
+              HTML,CSS, JavaScript, Reactjs, TailWindCSS
+            </div>
+
+            <div class="tools">Tools</div>
+            <div class="tools--Skills">Git,Windows</div>
+
+            <div class="library-frameWork">frameWorks & Library</div>
+            <div class="tools--Skills">REACT</div>
+          </div>
+        </div>
+
+        <div class="Education--list hidden">
+          <div class="content2">
+            <div class="lang">Present</div>
+            <div class="lang--skill">
+              B.Tech (Electrical Engineering) from Delhi Technological
+              University
+            </div>
+            <div class="webLang">2018-2019</div>
+            <div class="webLang--skills">
+              XII (CBSE) from Indraprastha Convent School, New Delhi
+            </div>
+
+            <div class="tools">2018-2019</div>
+            <div class="tools--Skills">
+              X (CBSE) from Indraprastha Convent School, New Delhi
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="border: 2px solid red" class="My_Services">
+      <div  class="service ">
+        <h1 class="services-section">My Services</h1>
+        <div class="services1">
+          <div style="border: 2px solid red" class="services1--heading">
+            Web Design
+            <p class="para">
+              I specialize in creating modern, responsive websites that are
+              tailored to your unique brand identity and user needs. From
+              concept to implementation, I ensure a seamless and engaging user
+              experience.
+            </p>
+            <h3 class="heading--learnMore">Learn more</h3>
+          </div>
+        </div>
+        <div class="services2">
+          <div class="services2--heading">
+            Front-end work
+            <p class="para">
+              With expertise in HTML, CSS, and JavaScript, I build interactive
+              and visually stunning interfaces. I focus on writing clean code
+              and optimizing performance for a smooth user experience across
+              different devices and browsers.
+            </p>
+            <h3 class="heading--learnMore">Learn more</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <h1 class="project services-section">My Work</h1>
+      <a class="projectImg" target="_blank">
+        <img class="project--img image" src="project.png" alt="photo" />
+      </a>
+    </div>
+
+    <div class="contact--me">
+      <div class="Contact_Left--Part">
+        <div class="ContanctMe services-section"><b>Contanct Me</b></div>
+        <div class="emial services-section">aditya2232004@gmial.com</div>
+        <div class="mobileNumber services-section">+91 8505859609</div>
+      </div>
+      <div class="Contact_right--Part">
+        <textarea id="message" rows="8" cols="80">Your Message </textarea>
+        <textarea id="Your_email" rows="3" cols="80">xyz@gmial.com </textarea>
+        <br />
+        <button type="button" class="btn btn-primary">
+          <a class="submitButton" href=".navBar"></a>Submit
+        </button>
+      </div>
+    </div>
+
+    <div class="footer">All rights reserved &copy; Aditya. Made with 💖</div>
+
+    <script src="script.js"></script>
+    <!--own js -->
+    <!--typed.js => javaScript library-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Front-End Engineer", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

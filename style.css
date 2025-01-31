@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body {
+  background-color: rgb(37, 23, 78);
+  color: white;
+  font-family: "poppins", sans-serif;
+  width: 100vw;
+}
+.navBar {
+  background-color: rgb(43, 74, 180, 0.36);
+  display: flex;
+  justify-content: space-evenly;
+  /* position: fixed; */
+}
+.left {
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  position: relative;
+  top: -2px;
+  left: -71px;
+  font-size: 20px;
+}
+.right {
+  display: flex;
+  /* justify-content: center; */
+  list-style: none;
+  padding: 20px;
+}
+div ul li {
+  display: inline-block;
+}
+div ul li a {
+  text-decoration: none;
+  color: white;
+  /* position: relative;  */
+}
+div ul li a:hover {
+  /* background-color: rgb(36, 36, 153); */
+  color: rgb(132, 132, 229);
+  font-size: 1.01rem;
+}
+.home {
+  position: relative;
+  top: -2px;
+  right: 57px;
+}
+.contact {
+  position: relative;
+  top: -2px;
+  right: 70vw;
+}
+.projects {
+  position: relative;
+  top: -2px;
+  right: 8px;
+  
+}
+.services {
+  position: relative;
+  top: -2px;
+  right: 23px;
+ 
+}
+.about {
+  position: relative;
+  top: -2px;
+  right: 40px;
+
+}
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.leftPart {
+  /* background-color: red; */
+  height: 30vw;
+  width: 30vw;
+  margin: 6vw;
+  font-size: 37px;
+  align-items: center;
+  position: relative;
+  top: 4vw;
+}
+.devImg {
+  width: 33vw;
+  height: 28vw;
+  margin: 0.9vw;
+}
+.colorName {
+  color: rgb(54, 177, 222, 1);
+}
+#element {
+  color: rgb(54, 177, 222, 1);
+}
+/* main line{
+    height: 
+}  */
+.line1 {
+  position: relative;
+  top: -49px;
+  margin: 11px 238px 11px 120px;
+  height: 0.8px;
+  background-color: blue;
+}
+
+.About--me {
+  margin: 20px 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.About--me__leftPart {
+  /* background-color: red; */
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  top: -37px;
+  left: -13px;
+}
+.img {
+  height: 77vh;
+  width: 33vw;
+  border: 5px solid #333681;
+  border-radius: 15%;
+}
+.About--me__Start {
+  position: relative;
+  top: 0px;
+  font-size: 60px;
+}
+.About--me__para {
+  line-height: 17.5px;
+  /* background-color: aquamarine; */
+  width: 59vw;
+  height: 15vh;
+}
+.Skills {
+  position: relative;
+  top: 12px;
+  font-weight: bolder;
+}
+.content1 {
+  position: relative;
+  top: 35px;
+}
+.content2 {
+  position: relative;
+  top: 35px;
+}
+.lang {
+  color: aqua;
+  font-size: 18px;
+}
+.lang--skill {
+  position: relative;
+  top: -4px;
+}
+.webLang {
+  position: relative;
+  top: 6.5px;
+  color: aqua;
+}
+.tools {
+  position: relative;
+  top: 6.5px;
+  color: aqua;
+}
+.library-frameWork {
+  position: relative;
+  top: 6.5px;
+  color: aqua;
+}
+.Education {
+  position: relative;
+  top: 12px;
+  font-weight: bolder;
+  left: 50px;
+}
+.rightPlace {
+  position: relative;
+  top: -11vw;
+}
+.btn {
+  background: #6b75de;
+  margin: 8px;
+  padding: 9px;
+  font-size: 18px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.download-btn {
+  text-decoration: none;
+}
+.btn a {
+  color: black;
+}
+
+.link--github {
+  text-decoration: none;
+}
+
+.service {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  height:19vw;
+  /* width:20px; */
+}
+.services-section{
+  position: relative;
+  left:78px;
+}
+.services1--heading {
+  position: relative;
+  top: 49px;
+  left: -2vw;
+  font-size: 28px;
+  width: 36vw;
+  height: 20vh;
+  background-color: #393f76c4;
+  /* border: 5px solid red; */
+  border-radius: 4%;
+  padding: 25px;
+
+  /* transform properties  */
+  
+}
+.services2--heading {
+  position: relative;
+  top: 49px;
+  left: -3vw;
+  font-size: 28px;
+  width: 36vw;
+  height: 20vh;
+  background-color: #393f76c4;
+  /* border: 5px solid red; */
+  border-radius: 4%;
+  padding: 25px;
+}
+.design {
+  background:#5868d9;
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out; 
+}
+.para {
+  padding: 1px;
+  font-size: 12px;
+  line-height: 19px;
+  padding: 3px;
+}
+.Left--Part {
+  position: relative;
+  top: -60vh;
+  left: 3vw;
+}
+.hidden {
+  display: none;
+}
+.btnDecoration{
+
+  text-decoration:underline;
+  text-decoration-color: aqua;
+}
+.heading--learnMore{
+  color: rgb(17 175 233)
+}
+
+.projectImg {
+  display: flex;            /* Enable Flexbox */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  height: 100vh;            /* Full viewport height for demonstration */
+  width: 100%;              /* Full width of the parent container */
+}
+.project--img{
+  height:80vh;
+  width:70vw;
+  border: 2px solid #313b5b;
+  border-radius: 1%;
+  position : relative;
+  right:46px;
+}
+.contact--me{
+  display: flex;            /* Enable Flexbox */
+  justify-content: space-around;
+  position: relative;
+
+}
+.Contact_Left--Part{
+  width:40vw;
+  /* background-color: red; */
+  height:50vh;
+  position: relative;
+  right:-6vw;
+}
+.Contact_right--Part{
+  position: relative;
+  right:-13vw;
+}
+.ContanctMe{
+  display: block;
+  font-size : 45px;
+  position: relative;
+  left:78px;
+
+}
+.emial{
+  position: relative;
+  top:40px;
+  left:5vw;
+}
+.mobileNumber{
+  position: relative;
+  top:70px;
+  left:5vw;
+}
+#message{
+  background-color:#7a99d270;
+  color:aliceblue;
+}
+#Your_email{
+  background-color:#7a99d270;
+  color:aliceblue
+}
+
+.footer{
+  width:100vw;
+  height:5vw;
+  background-color:#3c4a93d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;      /* Center vertically */
+
+}
+.sticky {
+  position: fixed;
+  background-color: rgb(58 62 139 / 45%);
+  /* i need this width syntax beacuse when it's fixed position then navBar takes the height of it's parent element so i set it explicitly to 100% */
+  /* By default, block elements take up 100% width, but when position: fixed; or position: sticky; is applied, the width shrinks to the content's size. */
+  width:100%; 
+  height:50px;
+  opacity: 0.3;
+}
+
