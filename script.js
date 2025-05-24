@@ -62,7 +62,7 @@ hoverService2.addEventListener("mouseout", function () {
 // ------------------ Adding styles on project ---------------------
 projectImg.addEventListener("mouseover", function () {
   // console.log("dfg");
-  projectImg.style.opacity = "0.1";
+  // projectImg.style.opacity = "0.1";
   // image.style.backGround = "red";
 });
 projectImg.addEventListener("mouseout", function () {
@@ -107,23 +107,7 @@ emial.addEventListener("click", function (e) {
 // console.log(navBar.getBoundingClientRect());
 // console.log(navBar.getBoundingClientRect().height);
 
-const navBarHeight = navBar.getBoundingClientRect().height;
-const stickNavBar = (entries) => {
-  console.log(entries); // entries is an array provided by Intersection observer api
-  const [entry] = entries;
-  console.log(entry);
 
-  if (!entry.isIntersecting) navBar.classList.add("sticky");
-  else navBar.classList.remove("sticky");
-};
-
-const headerObserver = new IntersectionObserver(stickNavBar, {
-  root: null,
-  threshold: 0,
-  rootMargin: `-${navBarHeight}px`,
-});
-
-headerObserver.observe(mainContent);
 
 // ------------------- Making submit button works ------------------
 submit.addEventListener("click", function (e) {

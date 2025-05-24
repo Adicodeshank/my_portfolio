@@ -112,18 +112,21 @@ div ul li a:hover {
   height: 0.8px;
   background-color: blue;
 }
-
 .About--me {
   margin: 20px 20px;
   padding: 20px;
   display: flex;
   justify-content: space-around;
+  /* padding: 10px; */
 }
 .About--me__leftPart {
   /* background-color: red; */
   width: 100vw;
   height: 80vh;
-  position: relative;
+  /* position: relative; */
+   
+
+  display: flex;
   top: -37px;
   left: -13px;
 }
@@ -266,8 +269,7 @@ div ul li a:hover {
 .hidden {
   display: none;
 }
-.btnDecoration{
-
+.btnDecoration{  
   text-decoration:underline;
   text-decoration-color: aqua;
 }
